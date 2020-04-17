@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_blue"
+    android:padding="@dimen/dimen50"
+    tools:context=".Main3Activity">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen150"
+    android:text="Almost There"
+    android:textAllCaps="false"
+    android:textAlignment="center"
+    android:textSize="@dimen/font31"
+    android:textColor="@color/Background"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen10"
+        android:text="Thank you for registering with us. One more \nstep, you need to check your email \nto active your account"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textSize="@dimen/font15"
+        android:textColor="@color/Background"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login"
+        android:layout_marginTop="@dimen/dimen30"
+        android:text="VERIFY"
+        android:onClick="verify"
+        android:textColor="@color/Background"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

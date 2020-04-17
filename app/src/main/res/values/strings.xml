@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Tugas2-Akb</string>
+
+    <string name="listblood">Blood Type</string>
+    <string name="resh">Reshus</string>
+    <string name="job">Job</string>
+
+    <string-array name="listblood">
+        <item>Blood Type </item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+
+    <string-array name="resh">
+        <item>Reshes</item>
+        <item>Positive(+)</item>
+        <item>Negative(-)</item>
+    </string-array>
+
+    <string-array name="job">
+        <item>Job</item>
+        <item>Teachers</item>
+        <item>Doctor</item>
+        <item>Chef</item>
+        <item>Farmer</item>
+        <item>Tailors</item>
+        <item>Judges</item>
+    </string-array>
+</resources>

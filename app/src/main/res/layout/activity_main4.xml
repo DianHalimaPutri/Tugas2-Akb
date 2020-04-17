@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_blue"
+    android:padding="@dimen/dimen50"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen150"
+        android:text="Verify your Account"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textSize="@dimen/font31"
+        android:textColor="@color/Background"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen10"
+        android:text="We have send verification code to you email"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textSize="@dimen/font15"
+        android:textColor="@color/Background"/>
+    <EditText
+        android:id="@+id/verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter verification code here..."
+        android:layout_marginTop="@dimen/dimen30"
+        android:textAlignment="center"
+        android:textColorHint="@color/Background"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login"
+        android:layout_marginTop="@dimen/dimen15"
+        android:text="SEND"
+        android:onClick="send"
+        android:textColor="@color/Background"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/Resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="don't get a code ? Resend"
+        android:textAllCaps="false"
+        android:textColor="@color/Background"
+        android:layout_gravity="center"
+        android:textSize="@dimen/font15"
+        android:layout_marginTop="@dimen/dimen20"/>
+
+</LinearLayout>
